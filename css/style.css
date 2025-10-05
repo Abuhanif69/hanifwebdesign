@@ -1,0 +1,87 @@
+body{
+    font:15px/1.5 Arial,Helvetica,Sans-serif;
+    padding:0;
+    margin:0;
+    background: color #f4f4f4;
+}
+
+/*Global*/
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+
+/*Header*/
+header{
+    background:#35424a;
+    color:#f4f4f4;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#f4f4f4;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/*showcase*/
+#showcase{
+    min-height: 80vh;
+    background-image: linear-gradient(-60deg, #35424ade, #35424ad7), url(../images/showcase.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #cccccc !important;
+    font-size: 1.7rem;
+    padding: 150px 0 0 0;
+    text-align: center;
+    width: 100vw;
+}
+
+ #showcase h1{
+    color: #e8491d;
+    font-size: 3.2rem;
+ }
+
+ #showcase p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
