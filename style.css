@@ -1,10 +1,21 @@
 body{
-    padding: 10%;
-    font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: purple;
+    font-size: 22px;  
 }
 
-input, button{
-    font: inherit;
+h1, h2{
+    color: blue;
+}
+
+p{
+    color: purple;
+}
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+.gray{
+    color:gray;
+}
+#second{
+    font-style: italic;
 }
